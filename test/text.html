@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/cssreset.css">
+        <link rel="stylesheet" href="css/commom.css">
+        <style>
+            #play_video header{
+                width: 100%;
+                height: 50px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="app">
+            <play_videos></play_videos>
+        </div>
+
+        <template id="play_videos">
+            <div id="play_video">
+                <header>
+                    <div class="left">
+                        <img src="../src/assets/images/logo/logo_play_top.png" alt="">
+                    </div>
+                    div
+                </header>
+            </div>
+        </template>
+
+        <script src="js/vue.js"></script>
+
+        <script>
+            new Vue({
+                el:'#app',
+                components:{
+                    'play_videos':{
+                        template:'#play_videos'
+                    }
+                }
+            })
+        </script>
+    </body>
+</html>

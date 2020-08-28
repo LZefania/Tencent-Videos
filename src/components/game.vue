@@ -1,0 +1,61 @@
+<template>
+    <short_movie :short_movies="short_movies"></short_movie>
+</template>
+
+<script>
+import short_movie from './short_movie.vue'
+export default {
+    data(){
+        return{
+            short_movies:[
+                {
+                    vid:'2',
+                    video_img_src:'./src/assets/images/game/video_img/video_img_1.jpg',
+                    video_src:'./src/assets/videos/mayday.mp4',
+                    title:'守望先锋：即使你在天上也逃不了我上勾拳的支配',
+                    time:'00:36',
+                    user_img_src:'./src/assets/images/game/user_img/user_img_1.jpg',
+                    user_name:'小韩聊动漫',
+                },
+                {
+                    vid:'1',
+                    video_img_src:'./src/assets/images/game/video_img/video_img_2.jpg',
+                    video_src:'./src/assets/videos/mayday.mp4',
+                    title:'魔兽怀旧服祖尔格拉布将开放，新附魔无需原始黑钻石，玩家别囤了',
+                    time:'01:19',
+                    user_img_src:'./src/assets/images/game/user_img/user_img_2.jpg',
+                    user_name:'游戏热爱迷',
+                },
+                {
+                    vid:'2',
+                    video_img_src:'./src/assets/images/game/video_img/video_img_3.jpg',
+                    video_src:'./src/assets/videos/mayday.mp4',
+                    title:'蓝少和平精英：和平精英中载具的现实模型，你都知道是什么吗？',
+                    time:'01:12',
+                    user_img_src:'./src/assets/images/game/user_img/user_img_3.jpg',
+                    user_name:'和平精英蓝少',
+                },
+                {
+                    vid:'1',
+                    video_img_src:'./src/assets/images/game/video_img/video_img_4.jpg',
+                    video_src:'./src/assets/videos/mayday.mp4',
+                    title:'挑战挖一万颗钻石，玩过的人电脑当场卡废！我的世界趣味模组生存',
+                    time:'09:46',
+                    user_img_src:'./src/assets/images/game/user_img/user_img_4.jpg',
+                    user_name:'罗修解说',
+                },
+                {
+                    vid:'2',
+                    video_img_src:'./src/assets/images/game/video_img/video_img_5.jpg',
+                    video_src:'./src/assets/videos/mayday.mp4',
+                    title:'CF手游：“亡命之徒”的故事，你听过吗？翻盘夺冠，成名一战！',
+                    time:'01:17',
+                    user_img_src:'./src/assets/images/game/user_img/user_img_5.jpg',
+                    user_name:'吹雪解说',
+                },
+            ]
+        }
+    },
+    components:{short_movie}
+}
+</script>
