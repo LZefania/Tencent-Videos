@@ -106,7 +106,7 @@ export default {
     #short_movie .main img{
         width: 100%;
     }
-    #short_movie .main video{
+    #short_movie video{
         width: 100%;
     }
     #short_movie .main p{
